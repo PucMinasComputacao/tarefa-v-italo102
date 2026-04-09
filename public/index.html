@@ -1,12 +1,93 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechBlog</title>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    
+
+  <!-- CABEÇALHO -->
+  <header>
+    <div class="container header-inner">
+      <div class="logo">🚀 TechBlog</div>
+      <nav>
+        <a href="#inicio">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#artigos">Artigos</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- CONTEÚDO PRINCIPAL -->
+  <main>
+
+    <!-- BANNER -->
+    <section id="inicio" class="banner">
+      <div class="container banner-inner">
+        <h1>Bem-vindo ao TechBlog</h1>
+        <p>Seu espaço para aprender sobre tecnologia, programação e desenvolvimento web de forma simples e direta.</p>
+        <a href="#artigos" class="btn">Ver Artigos</a>
+      </div>
+    </section>
+
+    <!-- TEXTO INTRODUTÓRIO -->
+    <section id="sobre" class="intro">
+      <div class="container">
+        <h2>Sobre o site</h2>
+        <p>O TechBlog nasceu com o objetivo de compartilhar conhecimento sobre tecnologia de forma acessível. Aqui você encontra artigos sobre HTML, CSS, JavaScript, e muito mais. Seja bem-vindo!</p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- SEÇÃO SECUNDÁRIA — CARDS -->
+  <section id="artigos" class="cards-section">
+    <div class="container">
+      <h2>Artigos em destaque</h2>
+      <div class="cards-grid">
+
+        <article class="card">
+          <img src="https://placehold.co/400x200/4f46e5/ffffff?text=HTML" alt="HTML5">
+          <div class="card-body">
+            <h3>Fundamentos de HTML</h3>
+            <p>Aprenda os elementos essenciais do HTML5 e como estruturar páginas web de forma semântica e acessível.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="https://placehold.co/400x200/0891b2/ffffff?text=CSS" alt="CSS3">
+          <div class="card-body">
+            <h3>CSS Moderno</h3>
+            <p>Domine Flexbox, Grid e outras ferramentas do CSS3 para criar layouts responsivos e visualmente atraentes.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="https://placehold.co/400x200/d97706/ffffff?text=JS" alt="JavaScript">
+          <div class="card-body">
+            <h3>JavaScript na Prática</h3>
+            <p>Do básico ao avançado: explore variáveis, funções, eventos e como tornar suas páginas interativas com JS.</p>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- RODAPÉ -->
+  <footer>
+    <div class="container footer-inner">
+      <p>© 2025 TechBlog. Todos os direitos reservados.</p>
+      <div class="social-links">
+        <a href="#">GitHub</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">Twitter</a>
+      </div>
+    </div>
+  </footer>
+
 </body>
 </html>
